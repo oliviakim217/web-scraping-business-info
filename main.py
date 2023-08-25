@@ -6,7 +6,7 @@ import time
 service = Service("/Users/olivia/Documents/IT/chromedriver")
 driver = webdriver.Chrome(service=service)
 
-for page in range(11, 12):
+for page in range(1, 12):
     driver.get("https://kyocharocalgary.com/yellowpage?page=" + str(page))
     print("page" + str(page))
     
